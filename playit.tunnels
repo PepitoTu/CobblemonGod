@@ -1,0 +1,59 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "women-easter.gl.joinmc.link",
+          "assigned_srv": "women-easter.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "a18470ca-ede0-42a8-9d01-dc5ea232a378",
+          "ip_hostname": "21.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 53143,
+          "port_start": 53142,
+          "region": "global",
+          "static_ip4": "147.185.221.21",
+          "tunnel_ip": "2602:fbaf:0:1::15"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-08-05T01:27:23.140444Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "0a1b8608-665b-4000-bae6-e961c5cb9def",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "cc6445ea-8d5b-4873-895f-e1109d31abfb",
+          "agent_name": "Cobblemon",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  }
+}
